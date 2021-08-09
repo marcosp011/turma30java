@@ -4,7 +4,8 @@ programa
 	funcao inicio()
 	{
 		/*
-		 * Exercicio 4 - Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e em seguida, 
+		 * Exercicio 4 - 1
+		 * Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e em seguida, 
 		 * exiba a soma dos valores dela e a soma dos valores da primeira diagonal, ou seja, 
 		 * diagonal principal.
 		 */
@@ -40,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 57; 
+ * @POSICAO-CURSOR = 64; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
