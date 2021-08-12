@@ -15,13 +15,13 @@ public final class Vestuario extends Produto {
 	}
 //ENCAPSULAMENTO
 	
-
+	@Override
 	public String getTamanho() {
 		return tamanho;
 	}
 
 	
-
+	@Override
 	public char getCor() {
 		return cor;
 	}

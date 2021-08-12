@@ -8,16 +8,21 @@ public class Calcados extends Produto {
 	private String tamanhoCalcado; //35 - 45
 	private char corCalcado; //K,P,Y,W
 //CONSTRUTORES
+	public Calcados() {
+		
+	}
 	public Calcados(String codigo, String nome, double valor, int estoque) {
 		super(codigo, nome, valor, estoque);
 	}
 
 //ENCAPSULAMENTO
-	public String getTamanhoCalcado() {
+	@Override
+	public String getTamanho() {
 		return tamanhoCalcado;
 	}
 	
-	public char getCorCalcado() {
+	@Override
+	public char getCor() {
 		return corCalcado;
 	}
 	
